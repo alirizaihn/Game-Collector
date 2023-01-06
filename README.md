@@ -26,7 +26,8 @@ Game Collector is an application that contains current games, their release date
 
 ### Screens
 
-  #### Game List
+  #### Game List 
+  
 <div align="center">
 <table>
 <tr>
@@ -82,7 +83,6 @@ Game Collector is an application that contains current games, their release date
     <li>Favorite games can be removed from favorites with the "Delete" option by swiping left. </li>
     <li>When the game is selected on the Favorites page, the detail screen can be accessed.</li>
 
-
 #### Notes
 
 <div align="center">
@@ -104,8 +104,10 @@ Game Collector is an application that contains current games, their release date
 </tr>
 </table>
 </div>
+
 <li>Game Name and Note About Game fields are designed as mandatory fields on the note creation screen.</li> 
 <li>If the information about any of these fields is not filled in, an "Error" warning is displayed on the screen.</li>
+
 
 <div align="center">
 <table>
