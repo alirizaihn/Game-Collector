@@ -18,7 +18,7 @@ Game Collector is an application that contains current games, their release date
 
 ### Pattern
 
-MVVM
+<li>MVVM</li>
 
 ### Minimum iOS Version
 <li>iOS 16.1</li>
