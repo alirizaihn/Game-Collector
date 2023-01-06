@@ -13,8 +13,12 @@ Game Collector is an application that contains current games, their release date
 ### XCODE Version
 <li>XCode Version 14.1</li>
 
-### Swift Versiyon
+### Swift Version
 <li>Swift 5 </li>
+
+### Pattern
+
+MVVM
 
 ### Minimum iOS Version
 <li>iOS 16.1</li>
