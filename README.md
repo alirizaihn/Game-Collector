@@ -1,30 +1,30 @@
 # Game Collector
 
-### Açıklama
+### Description
 
-Game Collector güncel oyunların, bu oyunlar ile ilgili yayınlanma tarihlerinin, ratinglerinin ve oyunlar hakkındaki kısa bilgilerin bulunduğu bir uygulamadır. Bu uygulamada aynı zamanda oyunları favorilerinize ekleyebilir ve oyunlar ile ilgili notlar oluşturabilirsiniz.
+Game Collector is an application that contains current games, their release dates, ratings and brief information about the games. In this application, you can also add games to your favorites and create notes about games.
 
-### Kullanılan Kütüphaneler
+### Libraries Used
 <li>pod 'AlamofireImage', '~> 4.1'</li>
 <li>pod 'Alamofire'</li>
 <li>pod 'MaterialActivityIndicator'</li>
 <li>pod 'SwiftAlertView', '~> 2.2.1'</li>
 
-### XCODE Versiyon
+### XCODE Version
 <li>XCode Version 14.1</li>
 
 ### Swift Versiyon
 <li>Swift 5 </li>
 
-### Minimum iOS versiyon
+### Minimum iOS Version
 <li>iOS 16.1</li>
 
 ### API
 <li>https://api.rawg.io/docs</li>
-<li>Belirtilen apiyi kullanabilmek için bir key' e ihtiyaç duyulmaktadır.</li>
+<li>A key is needed to use the API.</li>
 
 
-### Görseller
+### Screens
 
   #### Game List
 <div align="center">
@@ -37,9 +37,9 @@ Game Collector güncel oyunların, bu oyunlar ile ilgili yayınlanma tarihlerini
 </table>
 </div>
 <ul>
-<li>Game List ekranında https://api.rawg.io/docs/  tarafından sağlanan veriler ile güncel oyunlar listelenir. </li>
-<li>Oyunlar, oyun isimleri ile search kullanılarak bulunabilir.</li>
-<li>Oyunlar tümü veya türlerine göre (aksiyon, macera vb.) filtrelenebilir.</li>
+<li>The Game List screen lists the current games with the data provided by https://api.rawg.io/docs/. </li>
+<li>Games can be found using search by game names.</li>
+<li>Games can be filtered for all or by genre (action, adventure, etc.).</li>
 </ul>
 <div align="center">
 <table>
@@ -49,9 +49,9 @@ Game Collector güncel oyunların, bu oyunlar ile ilgili yayınlanma tarihlerini
 </tr>
 </table>
 </div>
-<li>Oyunlar alfabetik sıralamaya, puanlarına ve yayınlanma tarihlerine göre sıralanabilir.</li>
-<li>Oyunların search kullanılarak bulunması, sıralanması ve filtrelenmesi servis istekleri ile yapılmıştır.</li>
-<li>Oyunlar seçildiğinde oyuna ait detay sayfasına ulaşılmaktadır</li>
+<li>Games can be sorted alphabetically, by score and release date.</li>
+<li>Finding, sorting and filtering the games using search is done with service requests. </li>
+<li>When games are selected, the detail page of the game is reached</li>
 
 #### Game Detail
 
@@ -63,9 +63,9 @@ Game Collector güncel oyunların, bu oyunlar ile ilgili yayınlanma tarihlerini
 </tr>
 </table>
 </div>
-    <li>Her bir oyunun detay sayfasında oyun görseli, rating bilgileri, oyunun yayınlanma tarihi ve oyun hakkında bilgiler bulunur. </li>
-    <li>Detay sayfasında bulunan görselin altında favorilere seçmek için kullanılan kalp sembolü bulunmaktadır. </li>
-  <li>Buton işaretlendiğinde ilgili oyun ‘’Favorites’’ ekranına kaydedilir.</li>
+ <li>On the detail page of each game, there are game images, rating information, release date of the game and information about the game.</li>
+<li>Under the image on the detail page, there is the heart symbol used to select favorites.</li>
+<li>When the button is checked, the relevant game is saved on the "Favorites" screen.</li>
 
 #### Favorites
 
@@ -78,9 +78,9 @@ Game Collector güncel oyunların, bu oyunlar ile ilgili yayınlanma tarihlerini
 </tr>
 </table>
 </div>
-    <li>Oyunların detay ekranlarında favorilere ekleme yapıldıktan sonra favoriler sayfasına bu oyunlar kaydedilir ve burada listelenir.</li>
-    <li>Favorilere alınan oyunlar sola kaydırılarak ‘’Delete’’ seçeneği ile favorilerden çıkarılabilir. </li>
-  <li>Favoriler sayfasında da oyun seçildiğinde detay ekranına ulaşılabilir.</li>
+    <li>After adding favorites on the detail screens of the games, these games are saved on the favorites page and listed here.</li>
+    <li>Favorite games can be removed from favorites with the "Delete" option by swiping left. </li>
+    <li>When the game is selected on the Favorites page, the detail screen can be accessed.</li>
 
 
 #### Notes
@@ -94,10 +94,7 @@ Game Collector güncel oyunların, bu oyunlar ile ilgili yayınlanma tarihlerini
 </tr>
 </table>
 </div>
-    <li>Oyunların detay ekranlarında favorilere ekleme yapıldıktan sonra favoriler sayfasına bu oyunlar kaydedilir ve burada listelenir.</li>
-    <li>Favorilere alınan oyunlar sola kaydırılarak ‘’Delete’’ seçeneği ile favorilerden çıkarılabilir. </li>
-  <li>Favoriler sayfasında da oyun seçildiğinde detay ekranına ulaşılabilir.</li>
-
+    <li>After the notes are saved, they are listed on the screen.</li>
 <div align="center">
 <table>
 <tr>
@@ -107,8 +104,8 @@ Game Collector güncel oyunların, bu oyunlar ile ilgili yayınlanma tarihlerini
 </tr>
 </table>
 </div>
-<li>Not oluşturma ekranında Game Name ve Note About Game alanları zorunlu alan olarak tasarlanmıştır.</li> 
-<li>Bu başlıklardan herhangi birine ait bilgilerin doldurulmaması durumunda ekranda ‘’Error’’ uyarısı alınır.</li>
+<li>Game Name and Note About Game fields are designed as mandatory fields on the note creation screen.</li> 
+<li>If the information about any of these fields is not filled in, an "Error" warning is displayed on the screen.</li>
 
 <div align="center">
 <table>
@@ -120,13 +117,12 @@ Game Collector güncel oyunların, bu oyunlar ile ilgili yayınlanma tarihlerini
 </tr>
 </table>
 </div>
-<li>Notlar kaydedildiktan sonra ekranda listelenmektedir. </li>
-<li>Listede oyun adı, notun kaydedildiği tarih ve yazılan not görüntülenmektedir.</li>
-<li>Aynı not içerisinde bilgiler değiştirilmek istendiğinde ilk kaydetme ekranında bulunan ‘’Add’ botunu ‘’Update’’ olarak ekranda değişmektedir. Bu buton ile kaydedilen notta değişiklik yapılabilmektedir.</li>
-<li>Listede seçilen not ‘’Delete’’ butonu ile listeden çıkarılabilmektedir.</li>
+<li>After the notes are saved, they are listed on the screen.</li>
+<li>The list displays the game name, the date the note was recorded, and the note written.</li>
+<li>When information is wanted to be changed in the same note, the "Add" button on the first save screen changes to "Update". With this button, changes can be made to the recorded note. </li>
+<li>The note selected in the list can be removed from the list with the "Delete" button.</li>
 
-#### Teşekkür
-Eğitim sürecinde değerli bilgilerini bizimle paylaştığı için Kaan Yıldırım' a sonsuz teşekkür ederim.
+
 
 
 
